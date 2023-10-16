@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+header{
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.media{
+  height: 50px;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+button {
+  background-color: #C0333D;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.filiais{
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  text-align: center;
+}
+
+.grupo-filiais{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 500px;
+}
+
+.rodape{
+position: fixed;
+bottom: 0;
+text-align: center;
+vertical-align: middle;
+width: 100%;
+height: 15;
+background-color: #C0333D;
+color: white;
+margin-top: auto;
+}
